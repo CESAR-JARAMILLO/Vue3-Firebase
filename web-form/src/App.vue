@@ -1,14 +1,14 @@
 <template>
-  
+  <Signup-Form/>
 </template>
 
 <script>
-
+import SignupForm from './components/SignupForm'
 
 export default {
   name: 'App',
   components: {
-    
+    SignupForm
   }
 }
 </script>
@@ -21,5 +21,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  margin: 0;
+  background: #eee;
 }
 </style>
